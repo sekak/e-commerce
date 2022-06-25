@@ -11,6 +11,7 @@ function AddressForm() {
       <Typography variant="h6" gutterBottom>
         Shipping address
       </Typography>
+      {/* @ts-ignore */}
       <Grid container spacing={24}>
         <Grid item xs={12} sm={6}>
           <TextField

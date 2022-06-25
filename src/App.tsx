@@ -8,9 +8,9 @@ import {BrowserRouter as Router , Route,Switch} from "react-router-dom"
 import Checkout from "./components/CheckoutItem/Checkout/Checkout";
 import Review from "./components/CheckoutItem/Review";
 
-function App({ product }) {
-  const [products, setProducts] = useState([]);
-  const [cart, setCart] = useState(null);
+function App() {
+  const [products, setProducts] = useState<any[]>([]);
+  const [cart, setCart] = useState<null | object>(null);
 
   const fetchProducts = async () => {
     const { data } = await commerce.products.list();
