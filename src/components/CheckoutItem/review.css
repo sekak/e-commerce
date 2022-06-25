@@ -1,0 +1,9 @@
+.conreview{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.conreview span{
+font-size: 20px;
+}
